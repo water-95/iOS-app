@@ -1,0 +1,909 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7AD8638C6DA28BB52159E830 /* Pods_TiMi.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C70EFEE7A23741C6C77B0B1 /* Pods_TiMi.framework */; };
+		A618BB0A22FCA0D600CE7AB8 /* TransDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A618BB0922FCA0D600CE7AB8 /* TransDelegate.m */; };
+		A618BB0D22FE9C3800CE7AB8 /* Account.m in Sources */ = {isa = PBXBuildFile; fileRef = A618BB0C22FE9C3800CE7AB8 /* Account.m */; };
+		A618BB1323088ECB00CE7AB8 /* ManageBookViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A618BB1223088ECB00CE7AB8 /* ManageBookViewController.m */; };
+		A67D1AA522F424F00052E553 /* UpdateCategoryNameView.m in Sources */ = {isa = PBXBuildFile; fileRef = A67D1AA422F424F00052E553 /* UpdateCategoryNameView.m */; };
+		A67D1AA822F8516E0052E553 /* CalendarPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = A67D1AA722F8516E0052E553 /* CalendarPickerView.m */; };
+		A6A3E9DE2315AA930062EEA3 /* RemarkViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6A3E9DD2315AA930062EEA3 /* RemarkViewController.m */; };
+		A6A4BD23230C0D1700E1FA49 /* AnalysisAndStaticViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6A4BD22230C0D1700E1FA49 /* AnalysisAndStaticViewController.m */; };
+		A6A4BD26230C0D4300E1FA49 /* ManageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6A4BD25230C0D4300E1FA49 /* ManageViewController.m */; };
+		A6A4BD29230C38D200E1FA49 /* ManageBookHeadView.m in Sources */ = {isa = PBXBuildFile; fileRef = A6A4BD28230C38D200E1FA49 /* ManageBookHeadView.m */; };
+		A6A4BD2C230C4EB600E1FA49 /* BookCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A6A4BD2B230C4EB600E1FA49 /* BookCell.m */; };
+		A6A4BD2F230C515100E1FA49 /* Book.m in Sources */ = {isa = PBXBuildFile; fileRef = A6A4BD2E230C515100E1FA49 /* Book.m */; };
+		A6A4BD32230D50AB00E1FA49 /* AddNewBookView.m in Sources */ = {isa = PBXBuildFile; fileRef = A6A4BD31230D50AB00E1FA49 /* AddNewBookView.m */; };
+		A6A78C3422EB193C00F0298A /* CategoryCollectionViewFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = A6A78C3322EB193C00F0298A /* CategoryCollectionViewFlowLayout.m */; };
+		A6A78C3722EB197E00F0298A /* CategoryCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A6A78C3622EB197E00F0298A /* CategoryCollectionViewCell.m */; };
+		A6A78C3A22EDEFE400F0298A /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6A78C3922EDEFE400F0298A /* TestViewController.m */; };
+		A6A78C3D22EDFB4B00F0298A /* UsedCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = A6A78C3C22EDFB4B00F0298A /* UsedCategory.m */; };
+		A6A78C4022EDFEE800F0298A /* unUsedCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = A6A78C3F22EDFEE800F0298A /* unUsedCategory.m */; };
+		A6A78C4322EE026500F0298A /* UsedCategory.plist in Resources */ = {isa = PBXBuildFile; fileRef = A6A78C4122EE026500F0298A /* UsedCategory.plist */; };
+		A6A78C4422EE026500F0298A /* UnUsedCategory.plist in Resources */ = {isa = PBXBuildFile; fileRef = A6A78C4222EE026500F0298A /* UnUsedCategory.plist */; };
+		A6A78C4822EF494700F0298A /* UIImage+Resize.m in Sources */ = {isa = PBXBuildFile; fileRef = A6A78C4722EF494700F0298A /* UIImage+Resize.m */; };
+		A6A78C4E22F082A400F0298A /* CalculateView.m in Sources */ = {isa = PBXBuildFile; fileRef = A6A78C4D22F082A400F0298A /* CalculateView.m */; };
+		A6C8AD7422FA03390021AAA2 /* CalendarCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A6C8AD7322FA03390021AAA2 /* CalendarCollectionViewCell.m */; };
+		A6F8BD3B22E36968009C7A39 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A6F8BD3A22E36968009C7A39 /* AppDelegate.m */; };
+		A6F8BD4322E36968009C7A39 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A6F8BD4222E36968009C7A39 /* Assets.xcassets */; };
+		A6F8BD4622E36968009C7A39 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6F8BD4422E36968009C7A39 /* LaunchScreen.storyboard */; };
+		A6F8BD4922E36969009C7A39 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A6F8BD4822E36969009C7A39 /* main.m */; };
+		A6F8BD5322E36969009C7A39 /* TiMiTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A6F8BD5222E36969009C7A39 /* TiMiTests.m */; };
+		A6F8BD5E22E36969009C7A39 /* TiMiUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A6F8BD5D22E36969009C7A39 /* TiMiUITests.m */; };
+		A6F8BD7F22E44C7D009C7A39 /* CenterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6F8BD7E22E44C7D009C7A39 /* CenterViewController.m */; };
+		A6F8BD8322E4C22B009C7A39 /* CenterHeadView.m in Sources */ = {isa = PBXBuildFile; fileRef = A6F8BD8222E4C22B009C7A39 /* CenterHeadView.m */; };
+		A6F8BD8622E57A9A009C7A39 /* PieView.m in Sources */ = {isa = PBXBuildFile; fileRef = A6F8BD8522E57A9A009C7A39 /* PieView.m */; };
+		A6F8BDCC22E96467009C7A39 /* DBHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = A6F8BDCB22E96467009C7A39 /* DBHelper.m */; };
+		A6F8BDD222E9ABD5009C7A39 /* IncomeAccountCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A6F8BDD122E9ABD5009C7A39 /* IncomeAccountCell.m */; };
+		A6F8BDD522E9ABEA009C7A39 /* SpendAccountCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A6F8BDD422E9ABEA009C7A39 /* SpendAccountCell.m */; };
+		A6F8BDD822E9B198009C7A39 /* AccountCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A6F8BDD722E9B198009C7A39 /* AccountCell.m */; };
+		A6F8BDDE22EAD0C9009C7A39 /* AddAccountHeadView.m in Sources */ = {isa = PBXBuildFile; fileRef = A6F8BDDD22EAD0C9009C7A39 /* AddAccountHeadView.m */; };
+		A6F8BDE122EAD133009C7A39 /* AddAccountViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6F8BDE022EAD133009C7A39 /* AddAccountViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A6F8BD4F22E36969009C7A39 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A6F8BD2E22E36968009C7A39 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A6F8BD3522E36968009C7A39;
+			remoteInfo = TiMi;
+		};
+		A6F8BD5A22E36969009C7A39 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A6F8BD2E22E36968009C7A39 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A6F8BD3522E36968009C7A39;
+			remoteInfo = TiMi;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1C70EFEE7A23741C6C77B0B1 /* Pods_TiMi.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TiMi.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		71B02416D178C3AF7F646F29 /* Pods-TiMi.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TiMi.release.xcconfig"; path = "Target Support Files/Pods-TiMi/Pods-TiMi.release.xcconfig"; sourceTree = "<group>"; };
+		A618BB0822FCA0D600CE7AB8 /* TransDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TransDelegate.h; sourceTree = "<group>"; };
+		A618BB0922FCA0D600CE7AB8 /* TransDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TransDelegate.m; sourceTree = "<group>"; };
+		A618BB0B22FE9C3800CE7AB8 /* Account.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Account.h; sourceTree = "<group>"; };
+		A618BB0C22FE9C3800CE7AB8 /* Account.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Account.m; sourceTree = "<group>"; };
+		A618BB1123088ECB00CE7AB8 /* ManageBookViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ManageBookViewController.h; sourceTree = "<group>"; };
+		A618BB1223088ECB00CE7AB8 /* ManageBookViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ManageBookViewController.m; sourceTree = "<group>"; };
+		A67D1AA322F424F00052E553 /* UpdateCategoryNameView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UpdateCategoryNameView.h; sourceTree = "<group>"; };
+		A67D1AA422F424F00052E553 /* UpdateCategoryNameView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UpdateCategoryNameView.m; sourceTree = "<group>"; };
+		A67D1AA622F8516E0052E553 /* CalendarPickerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CalendarPickerView.h; sourceTree = "<group>"; };
+		A67D1AA722F8516E0052E553 /* CalendarPickerView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CalendarPickerView.m; sourceTree = "<group>"; };
+		A6A3E9DC2315AA930062EEA3 /* RemarkViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RemarkViewController.h; sourceTree = "<group>"; };
+		A6A3E9DD2315AA930062EEA3 /* RemarkViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RemarkViewController.m; sourceTree = "<group>"; };
+		A6A4BD21230C0D1700E1FA49 /* AnalysisAndStaticViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AnalysisAndStaticViewController.h; sourceTree = "<group>"; };
+		A6A4BD22230C0D1700E1FA49 /* AnalysisAndStaticViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AnalysisAndStaticViewController.m; sourceTree = "<group>"; };
+		A6A4BD24230C0D4300E1FA49 /* ManageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ManageViewController.h; sourceTree = "<group>"; };
+		A6A4BD25230C0D4300E1FA49 /* ManageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ManageViewController.m; sourceTree = "<group>"; };
+		A6A4BD27230C38D200E1FA49 /* ManageBookHeadView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ManageBookHeadView.h; sourceTree = "<group>"; };
+		A6A4BD28230C38D200E1FA49 /* ManageBookHeadView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ManageBookHeadView.m; sourceTree = "<group>"; };
+		A6A4BD2A230C4EB600E1FA49 /* BookCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BookCell.h; sourceTree = "<group>"; };
+		A6A4BD2B230C4EB600E1FA49 /* BookCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BookCell.m; sourceTree = "<group>"; };
+		A6A4BD2D230C515100E1FA49 /* Book.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Book.h; sourceTree = "<group>"; };
+		A6A4BD2E230C515100E1FA49 /* Book.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Book.m; sourceTree = "<group>"; };
+		A6A4BD30230D50AB00E1FA49 /* AddNewBookView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AddNewBookView.h; sourceTree = "<group>"; };
+		A6A4BD31230D50AB00E1FA49 /* AddNewBookView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AddNewBookView.m; sourceTree = "<group>"; };
+		A6A78C3222EB193C00F0298A /* CategoryCollectionViewFlowLayout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CategoryCollectionViewFlowLayout.h; sourceTree = "<group>"; };
+		A6A78C3322EB193C00F0298A /* CategoryCollectionViewFlowLayout.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CategoryCollectionViewFlowLayout.m; sourceTree = "<group>"; };
+		A6A78C3522EB197E00F0298A /* CategoryCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CategoryCollectionViewCell.h; sourceTree = "<group>"; };
+		A6A78C3622EB197E00F0298A /* CategoryCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CategoryCollectionViewCell.m; sourceTree = "<group>"; };
+		A6A78C3822EDEFE400F0298A /* TestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
+		A6A78C3922EDEFE400F0298A /* TestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
+		A6A78C3B22EDFB4B00F0298A /* UsedCategory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UsedCategory.h; sourceTree = "<group>"; };
+		A6A78C3C22EDFB4B00F0298A /* UsedCategory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UsedCategory.m; sourceTree = "<group>"; };
+		A6A78C3E22EDFEE800F0298A /* unUsedCategory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = unUsedCategory.h; sourceTree = "<group>"; };
+		A6A78C3F22EDFEE800F0298A /* unUsedCategory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = unUsedCategory.m; sourceTree = "<group>"; };
+		A6A78C4122EE026500F0298A /* UsedCategory.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = UsedCategory.plist; sourceTree = "<group>"; };
+		A6A78C4222EE026500F0298A /* UnUsedCategory.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = UnUsedCategory.plist; sourceTree = "<group>"; };
+		A6A78C4622EF494700F0298A /* UIImage+Resize.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+Resize.h"; sourceTree = "<group>"; };
+		A6A78C4722EF494700F0298A /* UIImage+Resize.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Resize.m"; sourceTree = "<group>"; };
+		A6A78C4C22F082A400F0298A /* CalculateView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CalculateView.h; sourceTree = "<group>"; };
+		A6A78C4D22F082A400F0298A /* CalculateView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CalculateView.m; sourceTree = "<group>"; };
+		A6C8AD7222FA03390021AAA2 /* CalendarCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CalendarCollectionViewCell.h; sourceTree = "<group>"; };
+		A6C8AD7322FA03390021AAA2 /* CalendarCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CalendarCollectionViewCell.m; sourceTree = "<group>"; };
+		A6F8BD3622E36968009C7A39 /* TiMi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TiMi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6F8BD3922E36968009C7A39 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A6F8BD3A22E36968009C7A39 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A6F8BD4222E36968009C7A39 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A6F8BD4522E36968009C7A39 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A6F8BD4722E36968009C7A39 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A6F8BD4822E36969009C7A39 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A6F8BD4E22E36969009C7A39 /* TiMiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TiMiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6F8BD5222E36969009C7A39 /* TiMiTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TiMiTests.m; sourceTree = "<group>"; };
+		A6F8BD5422E36969009C7A39 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A6F8BD5922E36969009C7A39 /* TiMiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TiMiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6F8BD5D22E36969009C7A39 /* TiMiUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TiMiUITests.m; sourceTree = "<group>"; };
+		A6F8BD5F22E36969009C7A39 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A6F8BD7D22E44C7D009C7A39 /* CenterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CenterViewController.h; sourceTree = "<group>"; };
+		A6F8BD7E22E44C7D009C7A39 /* CenterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CenterViewController.m; sourceTree = "<group>"; };
+		A6F8BD8122E4C22B009C7A39 /* CenterHeadView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CenterHeadView.h; sourceTree = "<group>"; };
+		A6F8BD8222E4C22B009C7A39 /* CenterHeadView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CenterHeadView.m; sourceTree = "<group>"; };
+		A6F8BD8422E57A9A009C7A39 /* PieView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PieView.h; sourceTree = "<group>"; };
+		A6F8BD8522E57A9A009C7A39 /* PieView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PieView.m; sourceTree = "<group>"; };
+		A6F8BD8822E57E5F009C7A39 /* Const.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Const.h; sourceTree = "<group>"; };
+		A6F8BDCA22E96467009C7A39 /* DBHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DBHelper.h; sourceTree = "<group>"; };
+		A6F8BDCB22E96467009C7A39 /* DBHelper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DBHelper.m; sourceTree = "<group>"; };
+		A6F8BDD022E9ABD5009C7A39 /* IncomeAccountCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IncomeAccountCell.h; sourceTree = "<group>"; };
+		A6F8BDD122E9ABD5009C7A39 /* IncomeAccountCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IncomeAccountCell.m; sourceTree = "<group>"; };
+		A6F8BDD322E9ABEA009C7A39 /* SpendAccountCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SpendAccountCell.h; sourceTree = "<group>"; };
+		A6F8BDD422E9ABEA009C7A39 /* SpendAccountCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SpendAccountCell.m; sourceTree = "<group>"; };
+		A6F8BDD622E9B198009C7A39 /* AccountCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AccountCell.h; sourceTree = "<group>"; };
+		A6F8BDD722E9B198009C7A39 /* AccountCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AccountCell.m; sourceTree = "<group>"; };
+		A6F8BDDC22EAD0C9009C7A39 /* AddAccountHeadView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AddAccountHeadView.h; sourceTree = "<group>"; };
+		A6F8BDDD22EAD0C9009C7A39 /* AddAccountHeadView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AddAccountHeadView.m; sourceTree = "<group>"; };
+		A6F8BDDF22EAD133009C7A39 /* AddAccountViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AddAccountViewController.h; sourceTree = "<group>"; };
+		A6F8BDE022EAD133009C7A39 /* AddAccountViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AddAccountViewController.m; sourceTree = "<group>"; };
+		E6F675944D78DD382AD0BD74 /* Pods-TiMi.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TiMi.debug.xcconfig"; path = "Target Support Files/Pods-TiMi/Pods-TiMi.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A6F8BD3322E36968009C7A39 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7AD8638C6DA28BB52159E830 /* Pods_TiMi.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6F8BD4B22E36969009C7A39 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6F8BD5622E36969009C7A39 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		060C9FA0E566CB8631CF026A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E6F675944D78DD382AD0BD74 /* Pods-TiMi.debug.xcconfig */,
+				71B02416D178C3AF7F646F29 /* Pods-TiMi.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		06B999CF38001F40AA74BE2F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1C70EFEE7A23741C6C77B0B1 /* Pods_TiMi.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A618BB0E23088E6600CE7AB8 /* LeftPage-ManageBook */ = {
+			isa = PBXGroup;
+			children = (
+				A618BB1023088EAB00CE7AB8 /* View */,
+				A618BB0F23088E9600CE7AB8 /* Controller */,
+			);
+			path = "LeftPage-ManageBook";
+			sourceTree = "<group>";
+		};
+		A618BB0F23088E9600CE7AB8 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A618BB1123088ECB00CE7AB8 /* ManageBookViewController.h */,
+				A618BB1223088ECB00CE7AB8 /* ManageBookViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		A618BB1023088EAB00CE7AB8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A6A4BD27230C38D200E1FA49 /* ManageBookHeadView.h */,
+				A6A4BD28230C38D200E1FA49 /* ManageBookHeadView.m */,
+				A6A4BD2A230C4EB600E1FA49 /* BookCell.h */,
+				A6A4BD2B230C4EB600E1FA49 /* BookCell.m */,
+				A6A4BD30230D50AB00E1FA49 /* AddNewBookView.h */,
+				A6A4BD31230D50AB00E1FA49 /* AddNewBookView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A6A3E9DB2315AA460062EEA3 /* Remark */ = {
+			isa = PBXGroup;
+			children = (
+				A6A3E9DC2315AA930062EEA3 /* RemarkViewController.h */,
+				A6A3E9DD2315AA930062EEA3 /* RemarkViewController.m */,
+			);
+			path = Remark;
+			sourceTree = "<group>";
+		};
+		A6A4BD20230C0CD600E1FA49 /* RightPage-StaticAndAnalysis */ = {
+			isa = PBXGroup;
+			children = (
+				A6A4BD21230C0D1700E1FA49 /* AnalysisAndStaticViewController.h */,
+				A6A4BD22230C0D1700E1FA49 /* AnalysisAndStaticViewController.m */,
+			);
+			path = "RightPage-StaticAndAnalysis";
+			sourceTree = "<group>";
+		};
+		A6A78C4522EF48DF00F0298A /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				A6A78C4622EF494700F0298A /* UIImage+Resize.h */,
+				A6A78C4722EF494700F0298A /* UIImage+Resize.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		A6F8BD2D22E36968009C7A39 = {
+			isa = PBXGroup;
+			children = (
+				A6F8BD3822E36968009C7A39 /* TiMi */,
+				A6F8BD5122E36969009C7A39 /* TiMiTests */,
+				A6F8BD5C22E36969009C7A39 /* TiMiUITests */,
+				A6F8BD3722E36968009C7A39 /* Products */,
+				060C9FA0E566CB8631CF026A /* Pods */,
+				06B999CF38001F40AA74BE2F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A6F8BD3722E36968009C7A39 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A6F8BD3622E36968009C7A39 /* TiMi.app */,
+				A6F8BD4E22E36969009C7A39 /* TiMiTests.xctest */,
+				A6F8BD5922E36969009C7A39 /* TiMiUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A6F8BD3822E36968009C7A39 /* TiMi */ = {
+			isa = PBXGroup;
+			children = (
+				A6A4BD20230C0CD600E1FA49 /* RightPage-StaticAndAnalysis */,
+				A618BB0E23088E6600CE7AB8 /* LeftPage-ManageBook */,
+				A6A78C4522EF48DF00F0298A /* Category */,
+				A6A78C4222EE026500F0298A /* UnUsedCategory.plist */,
+				A6A78C4122EE026500F0298A /* UsedCategory.plist */,
+				A6F8BD6B22E426C3009C7A39 /* Model */,
+				A6F8BD8022E4C193009C7A39 /* CenterPage */,
+				A6F8BD3922E36968009C7A39 /* AppDelegate.h */,
+				A6F8BD3A22E36968009C7A39 /* AppDelegate.m */,
+				A6F8BD4222E36968009C7A39 /* Assets.xcassets */,
+				A6F8BD4422E36968009C7A39 /* LaunchScreen.storyboard */,
+				A6F8BD4722E36968009C7A39 /* Info.plist */,
+				A6F8BD4822E36969009C7A39 /* main.m */,
+				A6A78C3822EDEFE400F0298A /* TestViewController.h */,
+				A6A78C3922EDEFE400F0298A /* TestViewController.m */,
+				A6A4BD24230C0D4300E1FA49 /* ManageViewController.h */,
+				A6A4BD25230C0D4300E1FA49 /* ManageViewController.m */,
+			);
+			path = TiMi;
+			sourceTree = "<group>";
+		};
+		A6F8BD5122E36969009C7A39 /* TiMiTests */ = {
+			isa = PBXGroup;
+			children = (
+				A6F8BD5222E36969009C7A39 /* TiMiTests.m */,
+				A6F8BD5422E36969009C7A39 /* Info.plist */,
+			);
+			path = TiMiTests;
+			sourceTree = "<group>";
+		};
+		A6F8BD5C22E36969009C7A39 /* TiMiUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A6F8BD5D22E36969009C7A39 /* TiMiUITests.m */,
+				A6F8BD5F22E36969009C7A39 /* Info.plist */,
+			);
+			path = TiMiUITests;
+			sourceTree = "<group>";
+		};
+		A6F8BD6B22E426C3009C7A39 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A6F8BD8822E57E5F009C7A39 /* Const.h */,
+				A6F8BDCA22E96467009C7A39 /* DBHelper.h */,
+				A6F8BDCB22E96467009C7A39 /* DBHelper.m */,
+				A6A78C3B22EDFB4B00F0298A /* UsedCategory.h */,
+				A6A78C3C22EDFB4B00F0298A /* UsedCategory.m */,
+				A6A78C3E22EDFEE800F0298A /* unUsedCategory.h */,
+				A6A78C3F22EDFEE800F0298A /* unUsedCategory.m */,
+				A618BB0B22FE9C3800CE7AB8 /* Account.h */,
+				A618BB0C22FE9C3800CE7AB8 /* Account.m */,
+				A6A4BD2D230C515100E1FA49 /* Book.h */,
+				A6A4BD2E230C515100E1FA49 /* Book.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A6F8BD7B22E44A02009C7A39 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A6F8BD7D22E44C7D009C7A39 /* CenterViewController.h */,
+				A6F8BD7E22E44C7D009C7A39 /* CenterViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		A6F8BD7C22E44A25009C7A39 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A6F8BD8122E4C22B009C7A39 /* CenterHeadView.h */,
+				A6F8BD8222E4C22B009C7A39 /* CenterHeadView.m */,
+				A6F8BD8422E57A9A009C7A39 /* PieView.h */,
+				A6F8BD8522E57A9A009C7A39 /* PieView.m */,
+				A6F8BDD022E9ABD5009C7A39 /* IncomeAccountCell.h */,
+				A6F8BDD122E9ABD5009C7A39 /* IncomeAccountCell.m */,
+				A6F8BDD322E9ABEA009C7A39 /* SpendAccountCell.h */,
+				A6F8BDD422E9ABEA009C7A39 /* SpendAccountCell.m */,
+				A6F8BDD622E9B198009C7A39 /* AccountCell.h */,
+				A6F8BDD722E9B198009C7A39 /* AccountCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A6F8BD8022E4C193009C7A39 /* CenterPage */ = {
+			isa = PBXGroup;
+			children = (
+				A6F8BDD922E9F8C1009C7A39 /* AddAccount */,
+				A6F8BD7B22E44A02009C7A39 /* Controller */,
+				A6F8BD7C22E44A25009C7A39 /* View */,
+			);
+			path = CenterPage;
+			sourceTree = "<group>";
+		};
+		A6F8BDD922E9F8C1009C7A39 /* AddAccount */ = {
+			isa = PBXGroup;
+			children = (
+				A6A3E9DB2315AA460062EEA3 /* Remark */,
+				A6F8BDDB22EAA44F009C7A39 /* View */,
+				A6F8BDDA22EAA438009C7A39 /* Controller */,
+			);
+			path = AddAccount;
+			sourceTree = "<group>";
+		};
+		A6F8BDDA22EAA438009C7A39 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A6F8BDDF22EAD133009C7A39 /* AddAccountViewController.h */,
+				A6F8BDE022EAD133009C7A39 /* AddAccountViewController.m */,
+				A618BB0822FCA0D600CE7AB8 /* TransDelegate.h */,
+				A618BB0922FCA0D600CE7AB8 /* TransDelegate.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		A6F8BDDB22EAA44F009C7A39 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A6F8BDDC22EAD0C9009C7A39 /* AddAccountHeadView.h */,
+				A6F8BDDD22EAD0C9009C7A39 /* AddAccountHeadView.m */,
+				A6A78C3222EB193C00F0298A /* CategoryCollectionViewFlowLayout.h */,
+				A6A78C3322EB193C00F0298A /* CategoryCollectionViewFlowLayout.m */,
+				A6A78C3522EB197E00F0298A /* CategoryCollectionViewCell.h */,
+				A6A78C3622EB197E00F0298A /* CategoryCollectionViewCell.m */,
+				A6A78C4C22F082A400F0298A /* CalculateView.h */,
+				A6A78C4D22F082A400F0298A /* CalculateView.m */,
+				A67D1AA322F424F00052E553 /* UpdateCategoryNameView.h */,
+				A67D1AA422F424F00052E553 /* UpdateCategoryNameView.m */,
+				A67D1AA622F8516E0052E553 /* CalendarPickerView.h */,
+				A67D1AA722F8516E0052E553 /* CalendarPickerView.m */,
+				A6C8AD7222FA03390021AAA2 /* CalendarCollectionViewCell.h */,
+				A6C8AD7322FA03390021AAA2 /* CalendarCollectionViewCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A6F8BD3522E36968009C7A39 /* TiMi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6F8BD6222E36969009C7A39 /* Build configuration list for PBXNativeTarget "TiMi" */;
+			buildPhases = (
+				2AE8646805DE2F7492AE466F /* [CP] Check Pods Manifest.lock */,
+				A6F8BD3222E36968009C7A39 /* Sources */,
+				A6F8BD3322E36968009C7A39 /* Frameworks */,
+				A6F8BD3422E36968009C7A39 /* Resources */,
+				5DBC54A85E836A4E6129F9C3 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TiMi;
+			productName = TiMi;
+			productReference = A6F8BD3622E36968009C7A39 /* TiMi.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A6F8BD4D22E36969009C7A39 /* TiMiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6F8BD6522E36969009C7A39 /* Build configuration list for PBXNativeTarget "TiMiTests" */;
+			buildPhases = (
+				A6F8BD4A22E36969009C7A39 /* Sources */,
+				A6F8BD4B22E36969009C7A39 /* Frameworks */,
+				A6F8BD4C22E36969009C7A39 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A6F8BD5022E36969009C7A39 /* PBXTargetDependency */,
+			);
+			name = TiMiTests;
+			productName = TiMiTests;
+			productReference = A6F8BD4E22E36969009C7A39 /* TiMiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A6F8BD5822E36969009C7A39 /* TiMiUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6F8BD6822E36969009C7A39 /* Build configuration list for PBXNativeTarget "TiMiUITests" */;
+			buildPhases = (
+				A6F8BD5522E36969009C7A39 /* Sources */,
+				A6F8BD5622E36969009C7A39 /* Frameworks */,
+				A6F8BD5722E36969009C7A39 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A6F8BD5B22E36969009C7A39 /* PBXTargetDependency */,
+			);
+			name = TiMiUITests;
+			productName = TiMiUITests;
+			productReference = A6F8BD5922E36969009C7A39 /* TiMiUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A6F8BD2E22E36968009C7A39 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = "江滨耀";
+				TargetAttributes = {
+					A6F8BD3522E36968009C7A39 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					A6F8BD4D22E36969009C7A39 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A6F8BD3522E36968009C7A39;
+					};
+					A6F8BD5822E36969009C7A39 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A6F8BD3522E36968009C7A39;
+					};
+				};
+			};
+			buildConfigurationList = A6F8BD3122E36968009C7A39 /* Build configuration list for PBXProject "TiMi" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A6F8BD2D22E36968009C7A39;
+			productRefGroup = A6F8BD3722E36968009C7A39 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A6F8BD3522E36968009C7A39 /* TiMi */,
+				A6F8BD4D22E36969009C7A39 /* TiMiTests */,
+				A6F8BD5822E36969009C7A39 /* TiMiUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A6F8BD3422E36968009C7A39 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6A78C4422EE026500F0298A /* UnUsedCategory.plist in Resources */,
+				A6A78C4322EE026500F0298A /* UsedCategory.plist in Resources */,
+				A6F8BD4622E36968009C7A39 /* LaunchScreen.storyboard in Resources */,
+				A6F8BD4322E36968009C7A39 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6F8BD4C22E36969009C7A39 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6F8BD5722E36969009C7A39 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2AE8646805DE2F7492AE466F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TiMi-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5DBC54A85E836A4E6129F9C3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TiMi/Pods-TiMi-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/MMDrawerController/MMDrawerController.framework",
+				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/TYPagerController/TYPagerController.framework",
+				"${BUILT_PRODUCTS_DIR}/YYText/YYText.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MMDrawerController.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TYPagerController.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YYText.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TiMi/Pods-TiMi-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A6F8BD3222E36968009C7A39 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6A78C3722EB197E00F0298A /* CategoryCollectionViewCell.m in Sources */,
+				A6F8BD7F22E44C7D009C7A39 /* CenterViewController.m in Sources */,
+				A6F8BDD222E9ABD5009C7A39 /* IncomeAccountCell.m in Sources */,
+				A6A78C4E22F082A400F0298A /* CalculateView.m in Sources */,
+				A6F8BD4922E36969009C7A39 /* main.m in Sources */,
+				A6A4BD26230C0D4300E1FA49 /* ManageViewController.m in Sources */,
+				A6A4BD23230C0D1700E1FA49 /* AnalysisAndStaticViewController.m in Sources */,
+				A6F8BDD822E9B198009C7A39 /* AccountCell.m in Sources */,
+				A6A4BD2C230C4EB600E1FA49 /* BookCell.m in Sources */,
+				A6F8BD8322E4C22B009C7A39 /* CenterHeadView.m in Sources */,
+				A6A78C3A22EDEFE400F0298A /* TestViewController.m in Sources */,
+				A6F8BDE122EAD133009C7A39 /* AddAccountViewController.m in Sources */,
+				A6A4BD2F230C515100E1FA49 /* Book.m in Sources */,
+				A6A78C3D22EDFB4B00F0298A /* UsedCategory.m in Sources */,
+				A6A4BD32230D50AB00E1FA49 /* AddNewBookView.m in Sources */,
+				A6A4BD29230C38D200E1FA49 /* ManageBookHeadView.m in Sources */,
+				A6F8BD3B22E36968009C7A39 /* AppDelegate.m in Sources */,
+				A618BB0A22FCA0D600CE7AB8 /* TransDelegate.m in Sources */,
+				A6F8BDCC22E96467009C7A39 /* DBHelper.m in Sources */,
+				A6F8BDD522E9ABEA009C7A39 /* SpendAccountCell.m in Sources */,
+				A6F8BDDE22EAD0C9009C7A39 /* AddAccountHeadView.m in Sources */,
+				A6C8AD7422FA03390021AAA2 /* CalendarCollectionViewCell.m in Sources */,
+				A618BB1323088ECB00CE7AB8 /* ManageBookViewController.m in Sources */,
+				A6A3E9DE2315AA930062EEA3 /* RemarkViewController.m in Sources */,
+				A6A78C4022EDFEE800F0298A /* unUsedCategory.m in Sources */,
+				A618BB0D22FE9C3800CE7AB8 /* Account.m in Sources */,
+				A6A78C3422EB193C00F0298A /* CategoryCollectionViewFlowLayout.m in Sources */,
+				A6A78C4822EF494700F0298A /* UIImage+Resize.m in Sources */,
+				A67D1AA522F424F00052E553 /* UpdateCategoryNameView.m in Sources */,
+				A67D1AA822F8516E0052E553 /* CalendarPickerView.m in Sources */,
+				A6F8BD8622E57A9A009C7A39 /* PieView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6F8BD4A22E36969009C7A39 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6F8BD5322E36969009C7A39 /* TiMiTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6F8BD5522E36969009C7A39 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6F8BD5E22E36969009C7A39 /* TiMiUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A6F8BD5022E36969009C7A39 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A6F8BD3522E36968009C7A39 /* TiMi */;
+			targetProxy = A6F8BD4F22E36969009C7A39 /* PBXContainerItemProxy */;
+		};
+		A6F8BD5B22E36969009C7A39 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A6F8BD3522E36968009C7A39 /* TiMi */;
+			targetProxy = A6F8BD5A22E36969009C7A39 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A6F8BD4422E36968009C7A39 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A6F8BD4522E36968009C7A39 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A6F8BD6022E36969009C7A39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_ACTIVITY_MODE = "";
+				"DEBUG_ACTIVITY_MODE[sdk=iphonesimulator*]" = default;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A6F8BD6122E36969009C7A39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_ACTIVITY_MODE = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A6F8BD6322E36969009C7A39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E6F675944D78DD382AD0BD74 /* Pods-TiMi.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CT2CQAACPG;
+				INFOPLIST_FILE = TiMi/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.1146800334-qq.TiMi";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A6F8BD6422E36969009C7A39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 71B02416D178C3AF7F646F29 /* Pods-TiMi.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CT2CQAACPG;
+				INFOPLIST_FILE = TiMi/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.1146800334-qq.TiMi";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A6F8BD6622E36969009C7A39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CT2CQAACPG;
+				INFOPLIST_FILE = TiMiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.1146800334-qq.TiMiTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TiMi.app/TiMi";
+			};
+			name = Debug;
+		};
+		A6F8BD6722E36969009C7A39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CT2CQAACPG;
+				INFOPLIST_FILE = TiMiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.1146800334-qq.TiMiTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TiMi.app/TiMi";
+			};
+			name = Release;
+		};
+		A6F8BD6922E36969009C7A39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CT2CQAACPG;
+				INFOPLIST_FILE = TiMiUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.1146800334-qq.TiMiUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TiMi;
+			};
+			name = Debug;
+		};
+		A6F8BD6A22E36969009C7A39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CT2CQAACPG;
+				INFOPLIST_FILE = TiMiUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.1146800334-qq.TiMiUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TiMi;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A6F8BD3122E36968009C7A39 /* Build configuration list for PBXProject "TiMi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6F8BD6022E36969009C7A39 /* Debug */,
+				A6F8BD6122E36969009C7A39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A6F8BD6222E36969009C7A39 /* Build configuration list for PBXNativeTarget "TiMi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6F8BD6322E36969009C7A39 /* Debug */,
+				A6F8BD6422E36969009C7A39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A6F8BD6522E36969009C7A39 /* Build configuration list for PBXNativeTarget "TiMiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6F8BD6622E36969009C7A39 /* Debug */,
+				A6F8BD6722E36969009C7A39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A6F8BD6822E36969009C7A39 /* Build configuration list for PBXNativeTarget "TiMiUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6F8BD6922E36969009C7A39 /* Debug */,
+				A6F8BD6A22E36969009C7A39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A6F8BD2E22E36968009C7A39 /* Project object */;
+}
