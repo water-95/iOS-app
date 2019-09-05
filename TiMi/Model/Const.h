@@ -110,5 +110,7 @@ tableView.scrollIndicatorInsets = tableView.contentInset;\
 #pragma mark - UpdateCategoryNameView
 #define kContainerViewWidth 50
 
+/** 边框粗细 */
+#define kBorderWidth [[UIScreen mainScreen] scale]>0?1.0/[[UIScreen mainScreen] scale]:1.0
 #endif /* Const_h */
 

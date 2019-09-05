@@ -170,13 +170,22 @@ static NSInteger realmCurrentVersion = 1;
 -(NSArray *)loadBooks{
     NSMutableArray *books=[NSMutableArray array];
     RLMResults *result=[Book allObjects];
-    Book *selectedBook;
-    for(int i=0;i<result.count;i++){
-        Book *book=[result objectAtIndex:i];
-        if(!book.isSelected)[books addObject:book];
-        else selectedBook=book;
+    if(result.count==0){
+        Book *book=[Book new];
+        book.coverImageNameString=@"book_cover_0";
+        book.bookNameString=@"日常账本";
+        book.isSelected=YES;
+        [self addNewBook:book];
+        [books addObject:book];
+    }else{
+        Book *selectedBook;
+        for(int i=0;i<result.count;i++){
+            Book *book=[result objectAtIndex:i];
+            if(!book.isSelected)[books addObject:book];
+            else selectedBook=book;
+        }
+        [books insertObject:selectedBook atIndex:0];
     }
-    [books insertObject:selectedBook atIndex:0];
     return books;
 }
 -(void)updateBookState:(NSString *)bookName{
@@ -229,7 +238,7 @@ static NSInteger realmCurrentVersion = 1;
     config.schemaVersion=realmCurrentVersion;
     [RLMRealmConfiguration setDefaultConfiguration:config];
 }
-#pragma mark - post notification
+#pragma mark - number of account changed notification
 -(void)postNotificationOfAddOrDeleteAccount{
     [[NSNotificationCenter defaultCenter] postNotificationName:@"account addordelete" object:nil];
 }

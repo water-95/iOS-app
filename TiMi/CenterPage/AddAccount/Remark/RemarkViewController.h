@@ -8,6 +8,15 @@
 
 #import <UIKit/UIKit.h>
 
+@protocol RemarkViewControllerDataSource<NSObject>
+-(NSDate *)seletedDate;
+@end
+
 @interface RemarkViewController : UIViewController
-@property(nonatomic,strong)UITextField *remarkTextField;
+@property(nonatomic,strong)UITextView *remarkTextView;
+@property(nonatomic,strong)UILabel *placeholderLabel;
+@property(nonatomic,strong)UILabel *selectedDateLabel;
+@property(nonatomic,strong)UILabel *wordCountLabel;
+@property(nonatomic,strong)UIButton *saveButton;
+@property(nonatomic,weak)id<RemarkViewControllerDataSource> datasource;
 @end

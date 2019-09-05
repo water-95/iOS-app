@@ -30,7 +30,8 @@ UICollectionViewDataSource,
 CalculateViewDelegate,
 AddAccountHeadViewDelegate,
 UpdateCategoryNameViewDelegate,
-CalendarPickerViewDelegate
+CalendarPickerViewDelegate,
+RemarkViewControllerDataSource
 >
 typedef enum : NSUInteger {
     incomecollectionView,
@@ -82,13 +83,6 @@ typedef enum : NSUInteger {
 }
 -(void)viewWillLayoutSubviews{
     [super viewWillLayoutSubviews];
-    NSLog(@"view bound:%f,%f,%f,%f",self.view.layer.bounds.origin.x,self.view.layer.bounds.origin.y,self.view.layer.bounds.size.width,self.view.layer.bounds.size.height);
-//    [self.headView mas_makeConstraints:^(MASConstraintMaker *make){
-//        //make.top.mas_equalTo(self.navigationItem.titleView.mas_bottom);
-//        make.top.mas_equalTo(self.titleView.mas_bottom);
-//        make.height.mas_equalTo(60);
-//        make.left.right.mas_equalTo(self.view);
-//    }];
     
     [self.calculateView mas_makeConstraints:^(MASConstraintMaker *make){
         make.top.mas_equalTo(self.pageController.mas_bottom).offset(15);
@@ -225,6 +219,7 @@ typedef enum : NSUInteger {
 -(void)openRemarkView{
     NSLog(@"openRemarkView");
     RemarkViewController *vc=[[RemarkViewController alloc] init];
+    vc.datasource=self;
     [self.navigationController pushViewController:vc animated:YES];
 }
 -(void)openCalendarView{
@@ -322,11 +317,14 @@ typedef enum : NSUInteger {
     //给calculateview的date属性赋值
     self.calculateView.date=date;
 }
-
+#pragma mark - RemarkViewControllerDataSource
+-(NSDate *)seletedDate{
+    return self.calculateView.date;
+}
 #pragma mark - private method
 - (void)setupNavigationBar {
     
-    self.navigationController.navigationBar.shadowImage = [UIImage new];
+    //self.navigationController.navigationBar.shadowImage = [UIImage new];
     
     self.titleView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, 150, 40)];
     

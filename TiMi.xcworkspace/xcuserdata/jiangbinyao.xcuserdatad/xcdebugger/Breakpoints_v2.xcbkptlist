@@ -4,109 +4,82 @@
    version = "2.0">
    <Breakpoints>
       <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.ExceptionBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            scope = "0"
-            stopOnStyle = "0">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "TiMi/CenterPage/AddAccount/Controller/AddAccountViewController.m"
-            timestampString = "588835283.209592"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "84"
-            endingLineNumber = "84"
-            landmarkName = "-viewWillLayoutSubviews"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "TiMi/CenterPage/AddAccount/Remark/RemarkViewController.m"
-            timestampString = "588835283.210593"
+            timestampString = "589234322.6852781"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "22"
-            endingLineNumber = "22"
-            landmarkName = "-viewWillAppear:"
+            startingLineNumber = "44"
+            endingLineNumber = "44"
+            landmarkName = "-keyboardFrameWillChange:"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "TiMi/CenterPage/AddAccount/View/AddAccountHeadView.m"
-            timestampString = "588835283.2107151"
+            filePath = "TiMi/CenterPage/AddAccount/Remark/RemarkViewController.m"
+            timestampString = "589234322.685914"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "37"
-            endingLineNumber = "37"
-            landmarkName = "-layoutSubviews"
+            startingLineNumber = "73"
+            endingLineNumber = "73"
+            landmarkName = "-configurate"
             landmarkType = "7">
             <Locations>
                <Location
-                  shouldBeEnabled = "Yes"
+                  shouldBeEnabled = "No"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "-[AddAccountHeadView layoutSubviews]"
+                  symbolName = "-[RemarkViewController configurate]"
                   moduleName = "TiMi"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/jiangbinyao/Desktop/%E4%BB%A3%E7%A0%81/TiMi/TiMi/CenterPage/AddAccount/View/AddAccountHeadView.m"
-                  timestampString = "588835283.262805"
+                  urlString = "file:///Users/jiangbinyao/Desktop/%E4%BB%A3%E7%A0%81/TiMi/TiMi/CenterPage/AddAccount/Remark/RemarkViewController.m"
+                  timestampString = "589232767.715734"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "37"
-                  endingLineNumber = "37"
-                  offsetFromSymbolStart = "61">
+                  startingLineNumber = "68"
+                  endingLineNumber = "68"
+                  offsetFromSymbolStart = "1923">
                </Location>
                <Location
-                  shouldBeEnabled = "Yes"
+                  shouldBeEnabled = "No"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "__36-[AddAccountHeadView layoutSubviews]_block_invoke"
+                  symbolName = "-[RemarkViewController configurate]"
                   moduleName = "TiMi"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/jiangbinyao/Desktop/%E4%BB%A3%E7%A0%81/TiMi/TiMi/CenterPage/AddAccount/View/AddAccountHeadView.m"
-                  timestampString = "588835283.265694"
+                  urlString = "file:///Users/jiangbinyao/Desktop/%E4%BB%A3%E7%A0%81/TiMi/TiMi/CenterPage/AddAccount/Remark/RemarkViewController.m"
+                  timestampString = "589232767.718632"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "37"
-                  endingLineNumber = "37"
-                  offsetFromSymbolStart = "19">
+                  startingLineNumber = "68"
+                  endingLineNumber = "68"
+                  offsetFromSymbolStart = "2278">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[RemarkViewController configurate]"
+                  moduleName = "TiMi"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jiangbinyao/Desktop/%E4%BB%A3%E7%A0%81/TiMi/TiMi/CenterPage/AddAccount/Remark/RemarkViewController.m"
+                  timestampString = "589232767.721401"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "68"
+                  endingLineNumber = "68"
+                  offsetFromSymbolStart = "3603">
                </Location>
             </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "TiMi/CenterPage/AddAccount/Controller/AddAccountViewController.m"
-            timestampString = "588835283.210943"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "328"
-            endingLineNumber = "328"
-            landmarkName = "-setupNavigationBar"
-            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>
